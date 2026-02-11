@@ -224,10 +224,10 @@ margin-top:40px;
 <div class="hero-content">
 <h1>Jagjodh Narula</h1>
 <p>Python Developer | BCA Student | Full Stack Enthusiast</p>
-<a href="c:\Users\jagjo\Downloads\JAGJODH NARULA-Resume.pdf" target="_blank" class="btn">View Resume</a>
+<a href="JAGJODH NARULA-Resume.pdf" target="_blank" class="btn">View Resume</a>
 </div>
 
-<img src="c:\Users\jagjo\Downloads\photo.png" alt="Jagjodh Narula" class="profile-img">
+<img src="photo.png" alt="Jagjodh Narula" class="profile-img">
 </section>
 
 <!-- ABOUT -->
