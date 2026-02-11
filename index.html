@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jagjodh Narula | Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#ffffff;
+color:#111;
+line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#000;
+position:fixed;
+width:100%;
+z-index:1000;
+}
+
+nav h2{
+color:#0077ff;
+font-weight:700;
+letter-spacing:1px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#fff;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#0077ff;
+}
+
+/* HERO */
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 10%;
+background:linear-gradient(135deg,#000,#0077ff);
+color:#fff;
+}
+
+.hero-content{
+max-width:600px;
+}
+
+.hero h1{
+font-size:56px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+color:#ddd;
+margin-bottom:30px;
+}
+
+.profile-img{
+width:260px;
+height:260px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #fff;
+box-shadow:0 20px 50px rgba(0,0,0,0.4);
+}
+
+.btn{
+display:inline-block;
+padding:14px 34px;
+background:#0077ff;
+color:#fff;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#fff;
+color:#000;
+}
+
+/* SECTION */
+section{
+padding:100px 10%;
+}
+
+.section-title{
+font-size:34px;
+margin-bottom:50px;
+color:#0077ff;
+text-align:center;
+font-weight:700;
+}
+
+.card{
+background:#f4f8ff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,0.05);
+max-width:900px;
+margin:auto;
+}
+
+/* SKILLS */
+.skill{
+margin-bottom:25px;
+}
+
+.stars{
+color:#0077ff;
+font-size:18px;
+}
+
+/* CONTACT */
+.contact{
+background:#000;
+color:#fff;
+}
+
+.contact form{
+max-width:650px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.contact input,
+.contact textarea{
+padding:16px;
+border-radius:10px;
+border:none;
+font-size:14px;
+}
+
+.contact textarea{
+height:140px;
+resize:none;
+}
+
+.contact button{
+padding:16px;
+background:#0077ff;
+color:#fff;
+border:none;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+}
+
+.contact button:hover{
+background:#fff;
+color:#000;
+}
+
+/* FOOTER */
+footer{
+background:#000;
+color:#aaa;
+text-align:center;
+padding:25px;
+font-size:14px;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+.hero{
+flex-direction:column;
+text-align:center;
+padding-top:120px;
+}
+.profile-img{
+margin-top:40px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>JN</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-content">
+<h1>Jagjodh Narula</h1>
+<p>Python Developer | BCA Student | Full Stack Enthusiast</p>
+<a href="c:\Users\jagjo\Downloads\JAGJODH NARULA-Resume.pdf" target="_blank" class="btn">View Resume</a>
+</div>
+
+<img src="c:\Users\jagjo\Downloads\photo.png" alt="Jagjodh Narula" class="profile-img">
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<div class="card">
+<p>
+I am a dedicated BCA student based in Pitampura, New Delhi with a strong
+interest in software development and modern web technologies.
+I specialize in Python, JavaScript, C, and C++,
+and I enjoy building clean, responsive digital experiences.
+
+I continuously improve my technical foundation through practical projects
+and structured learning, aiming to grow into a skilled Full Stack Developer.
+</p>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2 class="section-title">Technical Skills</h2>
+<div class="card">
+
+<div class="skill">
+<strong>Python</strong><br>
+<span class="stars">★★★★★</span>
+</div>
+
+<div class="skill">
+<strong>JavaScript</strong><br>
+<span class="stars">★★★★☆</span>
+</div>
+
+<div class="skill">
+<strong>C++</strong><br>
+<span class="stars">★★★★☆</span>
+</div>
+
+<div class="skill">
+<strong>C Programming</strong><br>
+<span class="stars">★★★★☆</span>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2 class="section-title">Education</h2>
+<div class="card">
+<h3>Bachelor of Computer Applications (BCA)</h3>
+<p><strong>JIMS Rohini, Delhi</strong></p>
+<p>2025 – Present</p>
+<p>
+Focused on programming fundamentals, data structures,
+and full stack development concepts.
+</p>
+</div>
+</section>
+<section id="contact" style="background:#000; color:#fff; padding:100px 10%;">
+
+<div style="max-width:900px; margin:auto; text-align:center;">
+
+<section id="contact" style="background:#000; color:#fff; padding:100px 10%;">
+
+<div style="max-width:1000px; margin:auto; text-align:center;">
+
+<h2 style="font-size:36px; color:#0077ff; margin-bottom:20px;">
+Get In Touch
+</h2>
+
+<p style="color:#ccc; margin-bottom:60px; font-size:18px;">
+I'm open to internships, freelance projects, and collaborations.
+Let's connect and build something impactful.
+</p>
+
+<div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:40px;">
+
+<!-- Email -->
+<div style="flex:1; min-width:250px;">
+<h3 style="color:#0077ff;">Email</h3>
+<p style="color:#ccc;">
+<a href="mailto:jagjodhnarula@gmail.com" style="color:#ccc; text-decoration:none;">
+jagjodhnarula@gmail.com
+</a>
+</p>
+</div>
+
+<!-- Phone -->
+<div style="flex:1; min-width:250px;">
+<h3 style="color:#0077ff;">Phone</h3>
+<p style="color:#ccc;">
+<a href="tel:+919220901206" style="color:#ccc; text-decoration:none;">
++91 9220901206
+</a>
+</p>
+</div>
+
+<!-- Location -->
+<div style="flex:1; min-width:250px;">
+<h3 style="color:#0077ff;">Location</h3>
+<p style="color:#ccc;">
+Pitampura, New Delhi, India
+</p>
+</div>
+
+</div>
+
+<!-- Follow Me -->
+<div style="margin-top:60px;">
+<h3 style="color:#0077ff; margin-bottom:20px;">Follow Me</h3>
+
+<a href="https://github.com/jagjodhnarula-ux" target="_blank"
+style="margin:0 15px; font-size:24px; color:#fff; transition:0.3s;">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/jagjodh-narula-017b4b389" target="_blank"
+style="margin:0 15px; font-size:24px; color:#fff; transition:0.3s;">
+<i class="fab fa-linkedin"></i>
+</a>
+
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+<h2 class="section-title">Get In Touch</h2>
+
+<form action="https://formsubmit.co/jagjodhnarula@gmail.com" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message" required></textarea>
+
+<input type="hidden" name="_subject" value="New Portfolio Message">
+<input type="hidden" name="_captcha" value="false">
+
+<button type="submit">Send Message</button>
+</form>
+
+</section>
+
+<footer>
+© 2026 Jagjodh Narula — Designed & Developed by Jagjodh
+</footer>
+
+</body>
+</html>
